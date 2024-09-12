@@ -32,7 +32,7 @@ body {
     text-align: center;
     margin-top: 2%;
     font-size: 24px;
-    color: #1d3557
+    color: #000000
 }
 
 .info, .juego {
@@ -52,4 +52,83 @@ body {
     align-items: center;
     margin-top: 50px;
     position: relative;
+}
+.footer {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    padding: 5px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px 15px 0 0; 
+}
+
+.container-footer {
+        text-align: center;
+        font-size: 24px;
+        color: #000000
+    
+}
+
+.draggable {
+    width: 100px;
+    margin: 10px;
+    cursor: grab;
+}
+
+.droppable {
+    padding: 20px;
+    margin: 10px;
+    border: 2px dashed #ccc;
+    text-align: center;
+    min-height: 50px;
+    background-color: #f8f9fa;
+}
+
+.game-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images, .texts {
+    width: 45%;
+}
+
+.images img {
+    display: block;
+    margin-bottom: 20px;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+.texts div {
+    background-color: #f1faee;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.texts div:hover {
+    background-color: #a8dadc;
+}
+
+.counters {
+    margin-top: 20px;
+    text-align: center;
 }

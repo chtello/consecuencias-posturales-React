@@ -1,5 +1,6 @@
 import './styles.css'
 import Navbar from "./Navbar"
+import Footer from './Footer'
 function Principal() {
 
     return (
@@ -29,6 +30,7 @@ function Principal() {
         <h2>Hiperlordosis:</h2>
         <p>La hiperlordosis es una forma pronunciada de lordosis en la que la curvatura hacia adentro de la columna lumbar es excesiva. Esta condición puede alterar la postura normal y provocar dolor y molestias en la zona lumbar. A diferencia de la lordosis normal, la hiperlordosis es una curvatura exagerada que puede tener efectos negativos en la salud.</p>
     </section>
+    <Footer/>
       </>
     )
   }
