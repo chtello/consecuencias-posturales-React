@@ -7,10 +7,12 @@ function App() {
   return (
     <>
         <Router>
+          <Link to="/"/><Link/>
+          <Link to="/juego"/><Link/>
             <div>
                 <Routes>
                     <Route path='/' element={<Principal/>} />
-                    <Route path='/Juego' element={<Juego/>} />
+                    <Route path='/juego' element={<Juego/>} />
                 </Routes>
             </div>
         </Router>
